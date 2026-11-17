@@ -8,6 +8,7 @@ company: [Company]
 mode: quick | deep | practice
 date: YYYY-MM-DD
 seller: [from profile]
+context: [the user's starting context, in a few words, or none]
 ---
 # [Company] - driver tree
 
@@ -15,13 +16,17 @@ seller: [from profile]
 
 **Contact first:** [role] (why: owns [behavior], under pressure from [pressure])
 
+**Your starting point:** [the user's context] → [held up / sharpened / contradicted]: [one line on why]. *(Only if the user gave context.)*
+
 ## Tree
 ```mermaid
 graph LR
-  O["Outcome<br/>figure"]
-  O --> E1["Engine<br/>share"]
+  O["Goal leadership is committed to<br/>target · latest figure"]
+  O --> E1["Engine on the path<br/>share"]
+  O --> E2["Other engine<br/>share (context, not expanded)"]
   E1 --> D1["Driver<br/>figure, trend"]
-  D1 --> B1["★ Behavior"]
+  D1 --> D1a["Operational driver<br/>figure or ?"]
+  D1a --> B1["★ Behavior"]
   class B1 owned
   classDef owned stroke:#2a8bc4,stroke-width:3px
   classDef pressure fill:#fbe9d0,stroke:#c77700
@@ -29,13 +34,18 @@ graph LR
 ⚠ = pressure · ★ = owned by the role to contact · ? = not public
 
 ## Why this path
-[owned behavior] → [driver] → [engine] → [outcome], one sentence per link, citing the evidence.
+[owned behavior] → [driver] → … → [engine] → [outcome]. One line per link: **how** the child produces the parent (sum, product, rate, direct consequence), then the evidence.
 
 ## Point of view
 [2–3 sentences about their business]
 
-## Opening questions
+## Cold questions
+For a cold call, LinkedIn or email: short, one hypothesis, answerable in a sentence.
 1. [question] *(node: …)*
+
+## Discovery questions  *(Deep)*
+For a booked first call: open-ended, for the `?` figures, how they measure the driver, who owns what, what they've tried.
+- [question] *(node: …)*
 
 ## Roles and what they own  *(Deep)*
 | Role | Owns (behaviors) | Pressure on them | Evidence |
@@ -43,11 +53,12 @@ graph LR
 ## Where we fit (private)
 - [capability] → [behavior] → [driver] (proof: …)
 
+**Against what they have:** [their tool or vendor] vs [the seller], point by point (sources, where available, who and what can use it, quality, analytics) → replacement / complement / layer underneath / different job.
+
+**Angle of attack:** [entry use case or deployment] for [role], framed as [approach]. Expect: [main objection] → [answer].
+
 ## Alternative paths  *(Deep)*
 | Path | Input it moves | Time to show | Cost | Risk | Their story |
-
-## Unknowns → discovery questions
-- [? node]: [what to ask]
 
 ## Evidence
 | Node | Figure or fact | Source | Source date | Type |
@@ -55,7 +66,7 @@ graph LR
 | E1 | ... | [name](url) | 2026-08 | stated |
 
 ## Practice  *(Practice mode only)*
-Their tree, the comparison (agree / missing / different / overreach), takeaway.
+Their tree, the comparison (agree / missing / different / overreach / broken link), takeaway.
 ````
 
 ## Mermaid rules
@@ -64,5 +75,5 @@ Their tree, the comparison (agree / missing / different / overreach), takeaway.
 - Pressure goes inside the node it hits, as a last line: `⚠ guidance cut Q3`. Add `class X pressure` to that node.
 - Owned behaviors start with `★` and get `class X owned`.
 - Unknown figures: `?`.
-- ≤ ~20 nodes. If it's bigger, the tree is a list, not a picture: cut the drivers that no behavior hangs from.
-- Never put the seller's or any product name in a node.
+- **≤ ~15 nodes.** Engines off the path are single nodes, not expanded. If the tree is bigger, it's a list, not a picture: cut the drivers that no path runs through.
+- Never put a product name in a node: not the seller's, not a competitor's, not the target's own tool.

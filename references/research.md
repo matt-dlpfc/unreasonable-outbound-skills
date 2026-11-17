@@ -2,11 +2,15 @@
 
 Read sources, don't skim search snippets. Collect evidence into a scratch list (figure or fact, source link, source date, stated or inferred) before building anything.
 
+**Aim the research before you start.** Begin from the profile: the segment this company falls in, the drivers the seller moves there, the roles that own them, and the signals the profile lists. Begin from the user's starting context too, if they gave one: research it first, as a hypothesis to test. Spend the time on what leads to something the seller can move. Company finances matter only as far as they show the goal and the pressure.
+
+**Look for the goal, not just the result.** In filings, calls and decks, look for what leadership says it will achieve: targets, initiatives with names, phrases repeated across quarters. That is the outcome. The latest quarter's figures are context and pressure.
+
 ## Public companies
 - **Annual report / 10-K / 20-F:** segments and their revenue share, the metrics management reports, the risk factors (risk factors that are new this year are often pressure).
 - **Earnings call transcripts and investor decks, last 4–8 quarters:** guidance and whether it was hit; the phrases executives repeat; analysts' questions (they point at what the market worries about). Note any metric they used to report and stopped, or redefined.
 - **Monthly or quarterly revenue releases** where the market requires them (e.g. Taiwan's monthly revenue reports): the trend is a driver in itself.
-- **Non-US companies:** look for the English investor-relations site; if key material is only in the local language, read it and say so.
+- **Non-US companies:** look for the English investor-relations site; if key material is only in the local language, read it and say so. When you translate, keep the original phrase in the evidence row. Read the whole sentence: "most of next year's capacity is secured, the rest is being worked on" is not "next year's capacity is the main goal".
 - **Investor decks are often image-only PDFs.** If a web fetch returns binary or "no text layer", open the saved PDF file directly (a file reader that renders pages) instead of giving up. Stock-exchange filing portals (e.g. TWSE's mopsov) often host the latest deck before the company's own IR page does.
 - **Earnings-call transcripts** may not be public; third-party call summaries are usable for executives' phrasing and remarks, tagged [aggregator], and checked against the deck for the numbers.
 - **Segments vs the seller's lever.** Companies often report by application or customer segment, while the seller's lever sits in one product line that cuts across segments. Keep their segments as engines (their words), and put the product line's share as `?` with a discovery question.
@@ -17,7 +21,16 @@ Read sources, don't skim search snippets. Collect evidence into a scratch list (
 - Revenue is often not disclosed. Don't back-calculate it; mark `?` and ask.
 
 ## Where the seller's world shows up
-Look for the public traces of the areas in `profile.md`, so the tree reaches behaviors this seller can speak to. **First look for what they have built or bought themselves in that area** (in-house tools, extensions, pilots, vendor announcements, seminar decks, marketplace listings): it is the strongest signal there is. It shows the need is acknowledged, names the team that owns it, and is the alternative path you must beat or join (build-and-buy). Record its reach and limits (who can use it, where, how many users). Examples:
+Look for the public traces of the areas in `profile.md`, so the tree reaches behaviors this seller can speak to.
+
+**First look for what they have built or bought themselves in that area:** in-house tools, extensions, pilots, vendor announcements, seminar decks, marketplace listings. It is the strongest signal there is:
+- it shows the need is acknowledged;
+- it names the team that owns it;
+- it is the alternative you'll be compared with.
+
+Record exactly what it does and its limits: which sources it covers, where it runs, who can use it, how many users. Then read the seller's own product documentation (linked in the profile) on the matching capabilities, so *Where we fit* can compare the two point by point. A tool in the same category is often a narrower or weaker version of the same job, or a different job altogether. Don't assume overlap.
+
+Examples:
 - **Developer / documentation / support products:** docs sites (size, versions, languages, last updated), developer forums and community (volume, unanswered threads, response times), GitHub orgs (issues, discussions), support portals, SDK and tooling pages, field application engineer or developer-relations hiring.
 - **Sales and marketing products:** sales and marketing hiring, channel and partner structure, pricing pages, events.
 - **Operations products:** operations hiring, plant or site announcements, supply-chain commentary on calls.
@@ -25,9 +38,14 @@ Look for the public traces of the areas in `profile.md`, so the tree reaches beh
 ## Roles
 - Careers pages, job posts (team names and what each team "owns"), LinkedIn titles, org announcements, conference talks.
 - **Seminar and conference decks** name the team (and often the person) who owns an initiative on their title slide. In non-English markets, keep the team name in the original language next to your translation.
+- **Ownership needs evidence.** Presenting a tool isn't the same as owning a behavior. Before starring a behavior for a role, find a job post, a team page or a talk that shows the role does that work. Otherwise call it inferred.
+- **Titles only from sources.** Don't assemble a title ("head of X business"). If no source shows one, describe the function.
 - Name a person only when the user asks or their public role clearly fits; prefer the role. Professional, public information only.
 
 ## Pressure checklist
+**Big changes come first:** changes in the business or the industry that will affect the business in a meaningful way. These make the account a priority. The profile lists the ones that matter most to this seller; look for those first. **Smaller signals** (a hire, a docs or portal relaunch, a public complaint, a new team lead) point to the person to contact, not the account.
+- New strategic direction: a new market, product line or customer type; a declared expansion.
+- A competitor move that changes what customers expect.
 - Guidance cut or missed; margin down; inventory build-up; a segment shrinking.
 - New CEO, CFO or business-unit head (they bring new priorities in their first 6–12 months).
 - Reorganisation, acquisition, divestment, spin-off, plant closure.
