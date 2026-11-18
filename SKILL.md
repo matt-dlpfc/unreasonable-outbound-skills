@@ -1,7 +1,7 @@
 ---
 name: driver-tree
 description: Build a value driver tree for a target account before outbound, so the seller understands what the account's leadership is committed to, how that goal is produced, link by link, down to the operational metrics the seller can move, which role owns them, and what point of view and cold-outreach questions would start a real conversation. Based on Nate Nasralla's value driver tree / Driver Graph. Use for "driver tree for [company]", "map [company]'s business", "quick tree on [company]", "practice tree on [company]", "set up driver-tree". The user is encouraged to add their own starting point of view or context after the company name; it is optional but improves the tree a lot. The run stops once, after the outcome and engines, to check it is on the right track.
-version: 0.4 (2026-11-18)
+version: 0.5 (2026-11-18)
 ---
 
 # Driver tree for outbound
@@ -143,10 +143,13 @@ The outcome and engines are as agreed at the checkpoint. How each level is built
   - Use their vocabulary where it exists. Give sizes only when public; otherwise mark them `?`.
   - Pick the cut the path runs through (for example, the product line where the seller's lever sits).
   - Only engines on the path get expanded.
-- **Drivers:** under each engine on the path, as many levels as the bridge needs (usually 2–3). Each one is a metric that produces its parent.
-  - The deeper levels are often operational or technical (cycle times, conversion, response times, coverage), and that is usually where the seller's lever sits.
+- **Drivers: the key KPIs of each engine, the truthful picture first.** Drivers are the indicators that someone running that engine would use to monitor it. They are not just the metrics the seller can affect.
+  - **Decompose before you select.** For each expanded engine, write its rough formula (volume × rate × size; the stages of the funnel; the mix of sources) and list the 3–5 main drivers that together explain it. Include the ones the seller can't touch: pricing, product availability and roadmap, sales or FAE coverage, competitors, the customers' own volumes. Test: would the person who owns this engine recognise this as their dashboard, with nothing major missing?
+  - **One metric per node.** Never join two into one ("rate and time", "current and returning accounts"). Split them, for example "evaluation-to-design-in rate" and "evaluation-to-design-in cycle time"; "new sockets at current accounts" and "new sockets at returning accounts".
+  - **Then go deeper only where the seller's path runs:** an extra level or two, often operational or technical (cycle times, conversion, response times, coverage). That is usually where the seller's lever sits.
+  - **Truth-seeking, not bias.** The seller's lever is one driver among several, and the tree should show its real weight. If the drivers that matter most are ones the seller can't move, the tree says so, and *Where we fit* takes it into account.
   - Give the figure and trend when public, `?` when not. An unknown value is fine; an unknown *mechanism* is not.
-- **Behaviors:** what the person responsible for that driver would do differently to move it.
+- **Behaviors:** for each key driver, what the person responsible for it would do differently to move it, whether or not the seller is involved. Be specific: a move someone in that job would recognise as a real option, not a generic intention.
   - They are done by the target's own people. When the end user is their customer, write what the target's team does for that customer ("put answers where evaluating engineers already look").
   - Write "X, not Y" when today's practice (Y) is known or can be reasonably guessed.
   - When a driver shows a dominant cause, the behavior goes after that cause.
@@ -158,7 +161,7 @@ The outcome and engines are as agreed at the checkpoint. How each level is built
   - **The role:** whose remit covers the driver those behaviors move. Remit is shown by a job post or team page describing that work, an org announcement, or the person talking about running it. Presenting a product at an event shows interest, not remit. If remit is inferred, say so in *Roles*.
 
   Star (★) those behaviors.
-- **Keep it lean:** one main path from the owned behavior to the outcome, plus at most one secondary path. A driver earns a place only if it is on a path, or it's where an alternative path acts. Don't add nodes to look thorough.
+- **Complete where it matters, lean elsewhere.** The engines on the path get their full set of key drivers. Engines off the path stay as single context nodes. Depth below the key drivers is only for the seller's path, plus at most one secondary path. Don't add nodes to look thorough, and don't leave out a key driver because the seller can't move it.
 - **Unknown figures are `?`.** Never fill a gap with a benchmark or a guess; a gap becomes a discovery question.
 - **Write out every link** from the owned behavior to the outcome under *Why this path*, each with its mechanism and evidence. With three or more links, each one must be specific and believable.
 
@@ -213,6 +216,7 @@ Use `references/output.md`. Save to the output folder in `profile.md` as `[Compa
 Before showing the note, review it skeptically in a fresh pass. Use a subagent if you can, so the review doesn't anchor on your own reasoning. Otherwise do a separate pass yourself, re-opening the sources rather than your notes.
 - **Spot-check 3–5 load-bearing claims:** the ones the outcome, the main path, the role to contact and the POV rest on. Re-open each cited source and check that the claim says what the source says: its scope, its timing, who said it, and the translation. Misread sources are the most common failure, and they spread to everything built on them.
 - **Check every link** has a mechanism. Flag any that are hand-waved, and any inferred link presented as stated.
+- **Check the drivers as their owner would.** For each expanded engine: is a key driver missing? Is any node two metrics joined into one? Does the tree lean toward what the seller can move?
 - **Check the POV and the cold questions for overreach:** an assertion with no evidence row behind it.
 - **Fix what fails.** Add a short *Review* section at the end of the note: what was checked, and what was corrected.
 

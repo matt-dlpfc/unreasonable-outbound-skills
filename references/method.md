@@ -36,7 +36,10 @@ Nate wrote it for an account executive: a discovery call or another scheduled co
 - **Use their vocabulary where it exists.** Give engine sizes only when they're public; otherwise mark them `?` or leave them out. Don't force them.
 
 ### Drivers
-- **Each driver is part of its engine's formula,** even a rough one.
+- **The drivers are the KPIs someone would use to monitor the engine.** They needn't be financial metrics, but they should be close to the indicators a manager reviews.
+- **Each driver is part of its engine's formula,** even a rough one. Write the formula, then list the 3–5 drivers that together explain the engine, including the ones the seller can't touch.
+- **One metric per node.** "Rate and time" is two drivers; so is "current and returning accounts". Granular drivers also make the behaviors specific: what raises a conversion rate isn't what shortens a cycle time.
+- **Be truth-seeking.** A tree that shows only the drivers the seller can move gives a biased, incomplete picture of the business, and a sharp prospect sees it at once. Show the real set, and let the seller's lever sit where it actually sits.
 - **Give a figure only where it's public.** Otherwise name the driver without one. An unknown value is fine; an unknown mechanism is not.
 
 ### Behaviors
@@ -105,7 +108,9 @@ Three engines, two drivers each, one behavior per driver. Every node is there be
 - **The financial statements redrawn as a tree:** last quarter's result, split into segment revenue and operating expenses. It describes what happened, not how the goal gets produced, and the seller's lever ends up bolted on.
 - **A minor goal picked because the seller can reach it,** while the priorities that matter go unmentioned.
 - **Links with no mechanism:** if you can't say how a child produces its parent, the tree is a list of related facts.
-- **Drivers added to look complete:** a node that no path runs through is noise.
+- **Drivers added to look complete:** a node that no path runs through is noise. The opposite mistake is just as bad.
+- **Shallow, biased drivers:** two drivers per engine, both chosen because the seller can move them, with the engine's real KPIs (pricing, coverage, availability, competition) missing. The tree stops being an understanding of the business.
+- **Two metrics in one node:** "rate and time", "current and returning". Split them.
 - **Picking the story by formula** ("where importance and performance diverge most"). It doesn't hold up in the real world; use judgment and evidence.
 - Generic trees ("revenue = customers × price") instead of their metric names.
 - Vague links ("better UX drives cross-sell") and skipped links (product → revenue in one jump).

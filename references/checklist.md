@@ -11,12 +11,14 @@ Run before showing a tree. Fix what fails; if something can't be fixed, say so i
 - [ ] The tree is a bridge from that goal to what the seller can move, not the financial statements redrawn. Engines off the path are single nodes at most.
 - [ ] 2–4 engines that sketch how the outcome happens (moving one moves the outcome), in their vocabulary where it exists. They are not just the segment table.
 - [ ] **Every link has a mechanism:** you can say how each child produces its parent (sum, product, rate, direct consequence). Unknown values are fine; unknown mechanisms are not.
+- [ ] Each expanded engine has its 3–5 key drivers: the KPIs its owner would monitor, including the ones the seller can't move. Nothing major is missing, and the set isn't tilted toward the seller.
+- [ ] One metric per driver node: nothing joined with "and".
 - [ ] Every driver could be measured next quarter, and has a figure or `?`.
 - [ ] Every behavior is what the person responsible for that driver would do differently, done by the target's own people. It is written "X, not Y" where Y is known, and it goes after the dominant cause where one shows. No product names anywhere in the tree, including the target's own tools.
 - [ ] Cross-links between branches are pointed out.
 - [ ] Every pressure tag is dated, sourced, and sits on the exact node it hits (not all on the outcome).
 - [ ] Owned: the ★ behaviors are where the seller's product fits, with the line they reach named (revenue, operating profit or cost). The role to contact has evidence of remit over that driver (presenting a product isn't remit), or the remit is marked inferred in *Roles*.
-- [ ] Lean: one main path plus at most one secondary path; no node that's there to look thorough; ≤ ~15 nodes.
+- [ ] Complete where it matters: the expanded engines show all their key drivers, each with a specific behavior. Below that, depth only on the seller's path, plus at most one secondary path. About 30 nodes at most.
 - [ ] No benchmark or guessed figure presented as theirs.
 - [ ] Specific: swap in a competitor's name. Does the tree still read true? If yes, it's too generic.
 

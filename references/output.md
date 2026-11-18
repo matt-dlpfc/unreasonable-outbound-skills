@@ -131,5 +131,5 @@ graph LR
 - Pressure goes inside the node it hits, as a last line: `⚠ guidance cut Q3`. Add `class X pressure` to that node.
 - Owned behaviors start with `★` and get `class X owned`.
 - Unknown figures: `?`.
-- **≤ ~15 nodes.** Engines off the path are single nodes, not expanded. If the tree is bigger, it's a list, not a picture: cut the drivers that no path runs through.
+- **About 30 nodes at most.** The expanded engines show all their key drivers, with a behavior each. Engines off the path are single nodes, not expanded. Go deeper only on the seller's path. If the tree still gets too big, cut depth, not key drivers.
 - Never put a product name in a node: not the seller's, not a competitor's, not the target's own tool.
