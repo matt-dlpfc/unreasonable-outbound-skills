@@ -25,7 +25,7 @@ context: [the user's starting context, in a few words, or none]
 
 Chosen: [priority or combined framing], because [one line]. Set aside: [what, and why].
 
-**Checkpoint:** [confirmed / changed: what the user changed or added / skipped].
+**Checkpoint:** [confirmed / changed: what the user changed or added / skipped at the user's request / no reply within 30 minutes, continued with the proposed framing].
 
 ## Tree
 ```mermaid

@@ -65,7 +65,7 @@ Ask the questions in `references/setup.md`, a few at a time, conversationally. A
 ## Process (Quick and Deep)
 Don't draw the tree until steps 1–3 are done: most bad trees come from drawing while still searching.
 
-**The run is path-dependent.** If the outcome and the engines are right, the rest is likely to be right. If they're wrong, nothing lower down can fix them. So there is exactly one stop for the user, the checkpoint in step 3, after the engines and before the drivers. Everything else runs without asking. Refinements come after the run.
+**The run is path-dependent.** If the outcome and the engines are right, the rest is likely to be right. If they're wrong, nothing lower down can fix them. So there is exactly one stop for the user, the checkpoint in step 3, after the engines and before the drivers. If there's no reply within 30 minutes, the run continues on its own. Everything else runs without asking. Refinements come after the run.
 
 ### 1. Gather
 **Start from the profile and the user's context, not from the company in general.** Before the first search, write down (in your reasoning, not the output):
@@ -96,7 +96,7 @@ A priority whose best approaches are financial, operational or about manufacturi
 
 **Use what the industry knows.** A mechanism that is well established in the industry is a valid link even when the company doesn't state it: in embedded chips, for example, developer adoption drives design-ins and design wins. Tag it **[inferred, industry]** and state the mechanism in a line. The profile may list the seller's known wedges and mechanisms; use them.
 
-**The seller's impact appears only in the behaviors,** never higher up. The outcome, the engines and the drivers are about their business.
+**The seller's impact appears only in the behaviors.** The outcome, the engines and the drivers are about their business.
 
 Choose the framing that balances weight, size and fit best, and record the weighing under *Priorities weighed* in the output: one line each, and why you chose this one. Don't pick a minor goal just because the seller can reach it. If you do choose a small one because the fit is strong, say it's small. If every important priority has a low fit, say the account isn't a priority now. See *Choosing the outcome* in `references/method.md`.
 
@@ -115,10 +115,13 @@ Stop once, here, and ask the user in chat. Keep it compact, about 15 lines:
 - **Where the seller would enter:** the engine, and the driver, in a line.
 - **The question:** "Right track? Pick a framing, correct the engines, or add context you have."
 
-Then wait for the answer.
-- If the user confirms or corrects, build on their answer. Tag new facts they give as **[user]**.
-- **Skip the checkpoint only if the user asked** ("no checkpoint", "just run it"), or the run is unattended. Then go on with the proposed framing, and say in the output that the checkpoint was skipped.
-- Record the result on the note's *Checkpoint* line.
+Then wait for the answer, for **up to 30 minutes** after the checkpoint message is sent.
+- **Skip the checkpoint entirely** if the user said so in the request ("no checkpoint", "just run it"). Go on with the proposed framing.
+- **The timer:** if the environment can schedule a one-time prompt (for example a cron or scheduled-prompt tool), schedule one for 30 minutes after the checkpoint message, then end the turn. The prompt says: "No reply to the driver-tree checkpoint for [company]: continue unattended with the proposed framing." Tell the user in the checkpoint message: "If I don't hear back within 30 minutes, I'll continue with the proposed framing."
+- **If the user replies within 30 minutes,** cancel the scheduled prompt and build on their answer. Tag new facts they give as **[user]**.
+- **If the timer fires with no reply,** continue unattended with the proposed framing.
+- **If nothing can be scheduled,** say so in the checkpoint message, and continue when the user replies.
+- **Record the result** on the note's *Checkpoint* line: confirmed, changed (what), skipped at the user's request, or no reply within 30 minutes.
 
 ### 4. Build the tree
 The outcome and engines are as agreed at the checkpoint. How each level is built:
