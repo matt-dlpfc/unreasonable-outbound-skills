@@ -5,7 +5,7 @@ Run before showing a tree. Fix what fails; if something can't be fixed, say so i
 ## The tree
 - [ ] *Priorities weighed* lists the 2–4 documented priorities, with weight, size and fit, and says why this one was chosen and what was set aside. No minor goal was chosen just because the seller can reach it, and a small one is called small.
 - [ ] Combined framings were considered: a strategic metric for the seller's wedge, with a reported initiative underneath.
-- [ ] The checkpoint happened, was skipped at the user's request, or timed out after 30 minutes. Its result is on the *Checkpoint* line.
+- [ ] The checkpoint happened, was skipped at the user's request, or timed out after 30 minutes. Its result is on the *Checkpoint* line. If it happened, `[Company] - checkpoint.md` exists, with the sketch and the sources so far.
 - [ ] Industry mechanisms used as links are stated and tagged [inferred, industry]. The seller's impact appears only in the behaviors.
 - [ ] The outcome is a priority *their* leadership is committed to, in their words, with its trade-off and targets where public. It is not just last quarter's result.
 - [ ] The tree is a bridge from that goal to what the seller can move, not the financial statements redrawn. Engines off the path are single nodes at most.

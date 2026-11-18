@@ -81,6 +81,50 @@ Checked: [the 3–5 load-bearing claims re-opened against their sources, plus th
 Their tree, the comparison (agree / missing / different / overreach / broken link), takeaway.
 ````
 
+## Checkpoint brief
+Written at step 3 as `[Company] - checkpoint.md`, in the same folder as the note. The final note supersedes it; keep it as the record of what the user was shown.
+
+````markdown
+---
+company: [Company]
+mode: quick | deep
+date: YYYY-MM-DD
+context: [the user's starting context, or none]
+---
+# [Company] - checkpoint
+
+**Priorities weighed:**
+| Priority (their words) | Weight | Size | Fit with the seller's approaches |
+| --- | --- | --- | --- |
+
+**Proposed outcome:** [framing], because [one line].
+- Alt A: [framing]: [why weaker]
+- Alt B: [framing]: [why weaker]
+
+**Engines:**
+- E1 [name]: [how it produces the outcome]
+
+**Sketch:**
+```mermaid
+graph LR
+  O["Proposed outcome<br/>target · latest figure<br/>⚠ pressure"]
+  O --> E1["Engine<br/>share or ?"]
+  O --> E2["Engine<br/>share or ?"]
+  E1 --> D1["★ Driver where the seller would enter<br/>?"]
+  class D1 owned
+  classDef owned stroke:#2a8bc4,stroke-width:3px
+  classDef pressure fill:#fbe9d0,stroke:#c77700
+```
+
+**Where the seller would enter:** [engine → driver], [one line on why].
+
+**Right track?** Pick a framing, correct the engines, or add context you have. If there's no reply within 30 minutes, the run continues with the proposed framing.
+
+## Sources so far
+| Node | Figure or fact | Source | Source date | Type |
+| --- | --- | --- | --- | --- |
+````
+
 ## Mermaid rules
 - `graph LR`, outcome on the left. Node ids short (O, E1, D1a, B1a).
 - Labels in double quotes; `<br/>` for line breaks; max 3 short lines per node. No double quotes inside labels (use single quotes).

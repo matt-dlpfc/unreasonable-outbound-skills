@@ -108,12 +108,18 @@ Then sketch the engines for the chosen outcome (see step 4) and work from both e
 Then sketch the tree around that path. Engines the path doesn't run through stay as single context nodes, or are left out.
 
 ### 3. Checkpoint: outcome and engines
-Stop once, here, and ask the user in chat. Keep it compact, about 15 lines:
+Stop once, here. First write a **checkpoint brief** to the output folder as `[Company] - checkpoint.md`, using the template in `references/output.md`, so the user can read it on their own without staying in the chat. It contains:
 - **Priorities weighed:** one line each (weight, size, fit).
 - **Proposed outcome,** plus 1–2 alternative framings (including a combined one, if there is one).
 - **Engines** for the proposed outcome: one line each, with how it produces the outcome.
+- **A sketch of the tree in Mermaid:** the outcome, the engines, the pressure on them, and the driver where the seller would enter, marked `?` and `★` if known.
 - **Where the seller would enter:** the engine, and the driver, in a line.
-- **The question:** "Right track? Pick a framing, correct the engines, or add context you have."
+- **Sources used so far:** an evidence table with every source consulted to this point, with links, dates and types.
+
+Then send a short chat message:
+- the proposed outcome and engines, in 3–5 lines;
+- the path to the brief;
+- the question: "Right track? Pick a framing, correct the engines, or add context you have."
 
 Then wait for the answer, for **up to 30 minutes** after the checkpoint message is sent.
 - **Skip the checkpoint entirely** if the user said so in the request ("no checkpoint", "just run it"). Go on with the proposed framing.
