@@ -4,7 +4,7 @@ Claude skills for outbound sales. The first one is **driver-tree**.
 
 ## driver-tree
 
-Before you reach out to an account, it builds a **value driver tree**:
+Before you reach out to a a high-value account, it builds a **value driver tree**:
 - the goal the account's leadership is committed to;
 - how that goal gets produced, link by link, down to the operational metrics your product can move;
 - which role owns those metrics, so you know who to contact;
@@ -40,6 +40,12 @@ Clone this repo and link (or copy) it into `~/.claude/skills/driver-tree/`.
 
 On first use, Claude asks about 10 questions about what you sell and saves the answers in `profile.md`. The profile is required: it is what points the research at what you can actually move. Your feedback on trees goes in `calibration.md` and overrides the defaults. Both files are git-ignored, and so are the trees themselves (`runs/`).
 
+I've tested quite a bit myself and I highly recommend just talking into Claude or Wispr Flow (or similar) to answer the questions. Provide rich examples, state the nuances and the edge cases you are aware of, and don't be afraid of "philosophize" even. 
+
+The more thought goes into this part, the better the output. 
+
+Depending on how well you know your market, answering will take between 5 and ~45 minutes (true story).
+
 ### Use
 - "driver tree for [company]"
 - "driver tree for [company] - context: [what you know or suspect]". The context is optional, but it improves the tree a lot.
@@ -53,7 +59,8 @@ The commit history shows each version, and why it changed. The tags are `v0.1` t
 - **A multi-tree variant** that built several candidate trees in parallel. It was dropped for a single pass with one checkpoint after the outcome and engines.
 
 ## Credit
-Method: Nate Nasralla. This skill's wording and the outbound adaptation are our own.
+Method: [Nate Nasralla](https://www.natenasralla.com/). This skill's wording and the outbound adaptation are our own.
+Not specifically mentioned here, but go and check out Nate's [uncommon-sales-skills](https://github.com/nnasrall/uncommon-sales-skills) repo for even more awesome skills (yes, this repo's name was unconsciously inspired by Nate's repo. :)
 
 ## License
 [MIT](LICENSE)
