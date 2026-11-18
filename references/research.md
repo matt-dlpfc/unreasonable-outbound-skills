@@ -4,7 +4,7 @@ Read sources, don't skim search snippets. Collect evidence into a scratch list (
 
 **Aim the research before you start.** Begin from the profile: the segment this company falls in, the drivers the seller moves there, the roles that own them, and the signals the profile lists. Begin from the user's starting context too, if they gave one: research it first, as a hypothesis to test. Spend the time on what leads to something the seller can move. Company finances matter only as far as they show the goal and the pressure.
 
-**Look for the goal, not just the result.** In filings, calls and decks, look for what leadership says it will achieve: targets, initiatives with names, phrases repeated across quarters. That is the outcome. The latest quarter's figures are context and pressure.
+**Look for the priorities, not just the results.** In filings, calls and decks, look for what leadership says it will achieve: targets, named initiatives, phrases repeated across quarters, and stated trade-offs ("profit over growth"). There are usually 2–4. For each, collect what shows its weight (how often it's repeated, and where it appears: the CEO's letter, the first slide) and how much of the business it affects. Collect what approaches would address it, too, so the fit can be weighed. The latest quarter's figures are context and pressure.
 
 ## Public companies
 - **Annual report / 10-K / 20-F:** segments and their revenue share, the metrics management reports, the risk factors (risk factors that are new this year are often pressure).
@@ -38,7 +38,7 @@ Examples:
 ## Roles
 - Careers pages, job posts (team names and what each team "owns"), LinkedIn titles, org announcements, conference talks.
 - **Seminar and conference decks** name the team (and often the person) who owns an initiative on their title slide. In non-English markets, keep the team name in the original language next to your translation.
-- **Ownership needs evidence.** Presenting a tool isn't the same as owning a behavior. Before starring a behavior for a role, find a job post, a team page or a talk that shows the role does that work. Otherwise call it inferred.
+- **Remit needs evidence.** The role to contact is the one responsible for the driver the starred behaviors move. Evidence of that is a job post or team page describing the work, an org announcement, or the person talking about running it. Presenting a product at an event shows interest, not remit. Otherwise call it inferred.
 - **Titles only from sources.** Don't assemble a title ("head of X business"). If no source shows one, describe the function.
 - Name a person only when the user asks or their public role clearly fits; prefer the role. Professional, public information only.
 

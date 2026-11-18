@@ -18,6 +18,13 @@ context: [the user's starting context, in a few words, or none]
 
 **Your starting point:** [the user's context] → [held up / sharpened / contradicted]: [one line on why]. *(Only if the user gave context.)*
 
+**Priorities weighed:**
+| Priority (their words) | Weight | Size | Fit with the seller's approaches |
+| --- | --- | --- | --- |
+| [priority] | [how top of mind, with evidence] | [share of business, or ?] | [high / medium / low: why] |
+
+Chosen: [priority], because [one line]. Set aside: [what, and why].
+
 ## Tree
 ```mermaid
 graph LR
@@ -31,10 +38,7 @@ graph LR
   classDef owned stroke:#2a8bc4,stroke-width:3px
   classDef pressure fill:#fbe9d0,stroke:#c77700
 ```
-⚠ = pressure · ★ = owned by the role to contact · ? = not public
-
-## Why this path
-[owned behavior] → [driver] → … → [engine] → [outcome]. One line per link: **how** the child produces the parent (sum, product, rate, direct consequence), then the evidence.
+⚠ = pressure · ★ = where the product fits, owned by the role to contact · ? = not public
 
 ## Point of view
 [2–3 sentences about their business]
@@ -42,6 +46,9 @@ graph LR
 ## Cold questions
 For a cold call, LinkedIn or email: short, one hypothesis, answerable in a sentence.
 1. [question] *(node: …)*
+
+## Why this path
+[owned behavior] → [driver] → … → [engine] → [outcome]. One line per link: **how** the child produces the parent (sum, product, rate, direct consequence), then the evidence. Note any cross-links between branches.
 
 ## Discovery questions  *(Deep)*
 For a booked first call: open-ended, for the `?` figures, how they measure the driver, who owns what, what they've tried.

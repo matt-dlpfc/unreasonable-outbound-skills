@@ -3,14 +3,16 @@
 Run before showing a tree. Fix what fails; if something can't be fixed, say so in *Discovery questions*.
 
 ## The tree
-- [ ] The outcome is a goal *their* leadership is committed to (a target, a stated goal, a phrase they repeat), in their words, with a figure. It is not just last quarter's result.
+- [ ] *Priorities weighed* lists the 2–4 documented priorities, with weight, size and fit, and says why this one was chosen and what was set aside. No minor goal was chosen just because the seller can reach it, and a small one is called small.
+- [ ] The outcome is a priority *their* leadership is committed to, in their words, with its trade-off and targets where public. It is not just last quarter's result.
 - [ ] The tree is a bridge from that goal to what the seller can move, not the financial statements redrawn. Engines off the path are single nodes at most.
-- [ ] 2–4 engines, named the way the company names them, cut along the mechanism the path runs through.
+- [ ] 2–4 engines that sketch how the outcome happens (moving one moves the outcome), in their vocabulary where it exists. They are not just the segment table.
 - [ ] **Every link has a mechanism:** you can say how each child produces its parent (sum, product, rate, direct consequence). Unknown values are fine; unknown mechanisms are not.
 - [ ] Every driver could be measured next quarter, and has a figure or `?`.
-- [ ] Every behavior is a verb done by their people. No product names anywhere in the tree, including the target's own tools.
-- [ ] Every pressure tag is dated, sourced, and sits on the node it hits (not all on the outcome).
-- [ ] Owned: 1–2 behaviors per role, starred only with evidence the role owns them. Inferred ownership is said in *Roles*.
+- [ ] Every behavior is what the person responsible for that driver would do differently, done by the target's own people. It is written "X, not Y" where Y is known, and it goes after the dominant cause where one shows. No product names anywhere in the tree, including the target's own tools.
+- [ ] Cross-links between branches are pointed out.
+- [ ] Every pressure tag is dated, sourced, and sits on the exact node it hits (not all on the outcome).
+- [ ] Owned: the ★ behaviors are where the seller's product fits, with the line they reach named (revenue, operating profit or cost). The role to contact has evidence of remit over that driver (presenting a product isn't remit), or the remit is marked inferred in *Roles*.
 - [ ] Lean: one main path plus at most one secondary path; no node that's there to look thorough; ≤ ~15 nodes.
 - [ ] No benchmark or guessed figure presented as theirs.
 - [ ] Specific: swap in a competitor's name. Does the tree still read true? If yes, it's too generic.
@@ -33,4 +35,4 @@ Run before showing a tree. Fix what fails; if something can't be fixed, say so i
 - [ ] Translated quotes have the original phrase in the evidence row and aren't more specific than the original.
 - [ ] Job titles appear only where a source shows them.
 - [ ] The Mermaid renders (quotes, `<br/>`, no stray double quotes in labels).
-- [ ] Quick: readable in ~5 minutes. Deep: the top (story, contact first, tree, POV, cold questions) still fits one screen and a half.
+- [ ] Quick: readable in ~5 minutes. Deep: the top (story, contact first, priorities weighed, tree, POV, cold questions) still fits about two screens.

@@ -1,7 +1,7 @@
 ---
 name: driver-tree
 description: Build a value driver tree for a target account before outbound, so the seller understands what the account's leadership is committed to, how that goal is produced, link by link, down to the operational metrics the seller can move, which role owns them, and what point of view and cold-outreach questions would start a real conversation. Based on Nate Nasralla's value driver tree / Driver Graph. Use for "driver tree for [company]", "map [company]'s business", "quick tree on [company]", "practice tree on [company]", "set up driver-tree". The user can add their own starting point of view or context after the company name.
-version: 0.2 (2026-11-17)
+version: 0.3 (2026-11-18)
 ---
 
 # Driver tree for outbound
@@ -22,9 +22,12 @@ This skill adapts it to **outbound**, before any conversation exists:
 | In a deal | In outbound |
 | --- | --- |
 | Pressure = compelling event | Pressure = **why now**, the trigger for reaching out |
-| Owned = what the champion's role can change | Owned = **who to contact**: for each candidate role, the 1–2 behaviors it owns |
+| Owned = what the champion's role can change | Owned = **where the product fits** (the 1–2 behaviors it helps move) and **who to contact** (the role whose remit covers them) |
+| Champion and agreed objectives | None yet. The priorities are weighed from public evidence. |
 | "Did I get this right?" in the meeting | **Cold questions**: one branch of the tree, offered as a hypothesis someone can answer in a sentence |
 | Alternative paths | What they'd do **instead of you** (build, competitor, nothing): the objections to expect |
+
+Nate wrote the method for an account executive in a live deal. Here it's for someone doing outbound, with public information only, no champion, and no agreed objective. So the aim is the best *possible* tree: **relevant, not exhaustive**. It shows where the opportunity lies and how the seller's product fits the tree, through revenue, operating profit or cost.
 
 A good tree is:
 - **grounded:** their numbers and their words, cited;
@@ -51,7 +54,7 @@ Read `references/method.md` once per session if you haven't.
 
 | Mode | When | What it produces |
 | --- | --- | --- |
-| **Quick** | tier 2–3 accounts, volume | Outcome, the one path from owned behavior to outcome, the strongest pressure, the best-fit role, the story in one line, a POV, 2 cold questions. Readable in ~5 minutes. |
+| **Quick** | tier 2–3 accounts, volume | Priorities weighed (one line each), the outcome, the one path from owned behavior to outcome, the strongest pressure, the best-fit role, the story in one line, a POV, 2 cold questions. Readable in ~5 minutes. |
 | **Deep** | tier 1 accounts | Everything in Quick, plus: owned nodes for 2–3 candidate roles; *Where we fit* with a comparison against what they have and an angle of attack; alternative paths; metrics they stopped reporting or redefined; 2–3 cold questions and 3–5 discovery questions. |
 | **Practice** | the user wants to build intuition | The user drafts first, then you build and compare (see *Practice*). Runs at Quick or Deep depth. |
 
@@ -71,32 +74,58 @@ Don't draw the tree until steps 1–2 are done: most bad trees come from drawing
 That is what the research is looking for. A company-wide analysis the seller can't act on is wasted effort.
 
 Then follow `references/research.md`. In short:
-- **What leadership is committed to:** stated goals, targets, strategic initiatives, the phrases executives repeat. Sources: annual report / 10-K / 20-F, earnings calls and investor decks, the CEO's letter, guidance. For a private company: funding news, founder and leadership interviews, job posts, registry filings. Last quarter's results are context and pressure, not the goal itself.
+- **The priorities leadership is committed to, usually 2–4:** stated goals, targets, strategic initiatives, the phrases executives repeat, the trade-offs they state ("profit over growth"). For each one, note how much weight it carries: is it repeated across quarters, in the CEO's letter, on the first slide? Sources: annual report / 10-K / 20-F, earnings calls and investor decks, the CEO's letter, guidance. For a private company: funding news, founder and leadership interviews, job posts, registry filings. Last quarter's results are context and pressure, not a priority in themselves.
 - **Their words:** the exact names they use for segments, initiatives and metrics.
 - **Pressure:** big changes in the business or the industry in the last 12–18 months: guidance cuts, missed targets, new leaders, reorganisations, acquisitions, new markets, launches with deadlines, metrics they stopped reporting or redefined. These make the account a priority. Smaller signals (a hire, a docs relaunch, a public complaint) point to the person to contact, not the account.
 - **Where the seller's world shows up in theirs:** the public traces of the profile's capability areas at this company. **First, what they have built or bought themselves in that area.** This is what takes you from engines down to the behaviors that matter for this seller.
 - **Roles:** the teams and titles that own those areas (careers pages, job posts, LinkedIn, org announcements, talks). Only professional, public information about people.
 - **How deep to go:** in Quick, stop at the evidence needed for one path. In Deep, cover the main path and the alternatives.
 
-### 2. Find the path, then the shape
-In your reasoning, work from both ends:
-- **Top:** the goal leadership is committed to (the outcome).
+### 2. Weigh the priorities, then find the path
+**Choose the outcome by weighing, not by rule.** The seller often can't move the top priority in a meaningful, clear and defensible way, and there is usually more than one. For each documented priority, judge:
+- **weight:** how top of mind it is for leadership;
+- **size:** how big a part of the business it affects;
+- **fit:** how well the approaches best suited to address it overlap with the approaches the seller's product enables.
+
+A priority whose best approaches are financial, operational or about manufacturing has a low fit, however important it is.
+
+Choose the priority that balances the three best, and record the weighing under *Priorities weighed* in the output: one line each, and why you chose this one. Don't pick a minor goal just because the seller can reach it. If you do choose a small one because the fit is strong, say it's small. If every important priority has a low fit, say the account isn't a priority now. See *Choosing the outcome* in `references/method.md`.
+
+Then work from both ends:
+- **Top:** the chosen priority (the outcome).
 - **Bottom:** the operational or technical metric this seller moves, as it exists at this company, for example "how fast an evaluating engineer gets an answer".
 - **The bridge:** the chain of metrics where each one produces the one above. For every link, say *how*: the parent is a sum, a product or a rate of the child, or a direct consequence of it. For example: "design wins = evaluations × win rate"; "win rate rises when fewer evaluations stall, and they stall on unanswered questions". If you can't say how a child produces its parent, the link is wrong or a step is missing: fix it rather than paper over it.
 
 Then sketch the tree around that path. Engines the path doesn't run through stay as single context nodes, or are left out. Check the sketch against `references/checklist.md` before drawing.
 
 ### 3. Build the tree
-- **Outcome:** the goal leadership is committed to, in their words, with the target if public and the latest figure as context ("Return to profit next year; operating loss of [figure] last quarter"). A reported number on its own is not an outcome: find what they've said they'll do about it. If no goal is stated, use the metric the board most clearly grades them on, and say the goal is inferred.
-- **Engines:** the 2–4 ways the business produces the outcome, in their names: product lines, segments, channels, or the cost lines that eat margin.
-  - Show the mechanism, not the accounting. Pick the cut the path runs through (for example, the product line where the seller's lever sits, with its share as `?`) rather than copying the segment table.
+- **Outcome:** the chosen priority, in their words. Include:
+  - its trade-off, if stated ("profit > growth");
+  - its targets, if public;
+  - the latest figure, as context ("Return to profit next year; operating loss of [figure] last quarter").
+
+  A reported number on its own is not an outcome: find what they've said they'll do about it. If no goal is stated, use the metric the board most clearly grades them on, and say the goal is inferred.
+- **Engines:** the 2–4 things that make the outcome happen. They are a sketch of how it becomes reality, so that moving an engine moves the outcome.
+  - Engines rarely appear in a filing. Build them by thinking about how this business works. The segment table is a source, not the answer.
+  - The exact formula doesn't matter. They must be actionable, and give the seller a mental model of how the buyer thinks about the outcome.
+  - Use their vocabulary where it exists. Give sizes only when public; otherwise mark them `?`.
+  - Pick the cut the path runs through (for example, the product line where the seller's lever sits).
   - Only engines on the path get expanded.
 - **Drivers:** under each engine on the path, as many levels as the bridge needs (usually 2–3). Each one is a metric that produces its parent.
   - The deeper levels are often operational or technical (cycle times, conversion, response times, coverage), and that is usually where the seller's lever sits.
   - Give the figure and trend when public, `?` when not. An unknown value is fine; an unknown *mechanism* is not.
-- **Behaviors:** what their team would do differently to move each driver: verbs, done by their people. **Never a product name**, whether it's the seller's, a competitor's, or the target's own tool. Describe what the people do; name tools in the text, *Where we fit* and *Alternative paths*.
-- **Pressure:** tag each on the node it hits, short and dated ("guidance cut, Q3 2026").
-- **Owned:** for each candidate role, the 1–2 behaviors it can change. **Star a behavior only with evidence that the role owns it**: a job post, a team page, a talk they gave on it. If ownership is inferred, say so in *Roles*.
+- **Behaviors:** what the person responsible for that driver would do differently to move it.
+  - They are done by the target's own people. When the end user is their customer, write what the target's team does for that customer ("put answers where evaluating engineers already look").
+  - Write "X, not Y" when today's practice (Y) is known or can be reasonably guessed.
+  - When a driver shows a dominant cause, the behavior goes after that cause.
+  - **Never a product name**, whether it's the seller's, a competitor's, or the target's own tool. Name tools in the text, in *Where we fit* and in *Alternative paths*.
+- **Cross-links:** when a behavior under one engine also serves another, say so in *Why this path*.
+- **Pressure:** tag each on the exact node it hits, short and dated ("guidance cut, Q3 2026").
+- **Owned:** two parts.
+  - **The fit:** the 1–2 behaviors the seller's product can help move, and the line they reach (revenue, operating profit or cost).
+  - **The role:** whose remit covers the driver those behaviors move. Remit is shown by a job post or team page describing that work, an org announcement, or the person talking about running it. Presenting a product at an event shows interest, not remit. If remit is inferred, say so in *Roles*.
+
+  Star (★) those behaviors.
 - **Keep it lean:** one main path from the owned behavior to the outcome, plus at most one secondary path. A driver earns a place only if it is on a path, or it's where an alternative path acts. Don't add nodes to look thorough.
 - **Unknown figures are `?`.** Never fill a gap with a benchmark or a guess; a gap becomes a discovery question.
 - **Write out every link** from the owned behavior to the outcome under *Why this path*, each with its mechanism and evidence. With three or more links, each one must be specific and believable.
