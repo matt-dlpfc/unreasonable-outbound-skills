@@ -62,7 +62,9 @@ Companies rarely have just one priority. The seller can't always move the top on
 - **Size:** how big a part of the business it affects.
 - **Fit:** compare the approaches best suited to address that priority with the approaches the seller's product enables. A strong overlap is a fit. A priority whose best approaches are financial, operational or about manufacturing leaves little room, however important it is.
 
-Then choose the priority that balances weight, size and fit best, and say why in a line. Name what you set aside. A small priority with a strong fit is a real choice, but say it's small. If every important priority has a low fit, say the account isn't a priority now, rather than build a bridge to a minor goal.
+**Combine framings when that's stronger than any single one.** Take a strategic metric for the business line where the seller's wedge is, such as that line's revenue or share in a market leadership is pushing into. Put an operational initiative the company has reported under it, as an engine or driver. Then the top is something the board cares about, and the bridge runs through something they've said they're doing. Use mechanisms the industry knows, even when the company doesn't state them, and tag them [inferred, industry]. For example, in embedded chips, developer adoption drives design-ins, design wins, and then revenue. The seller's impact appears only in the behaviors.
+
+Then choose the framing that balances weight, size and fit best, and say why in a line. Name what you set aside. A small priority with a strong fit is a real choice, but say it's small. If every important priority has a low fit, say the account isn't a priority now, rather than build a bridge to a minor goal.
 
 ## The steps
 1. **Collect the documented priorities**, in their words: annual report, earnings calls, investor decks, CEO letter. For a private company: funding news, leadership interviews, job posts.

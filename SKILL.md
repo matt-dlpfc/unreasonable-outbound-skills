@@ -1,7 +1,7 @@
 ---
 name: driver-tree
-description: Build a value driver tree for a target account before outbound, so the seller understands what the account's leadership is committed to, how that goal is produced, link by link, down to the operational metrics the seller can move, which role owns them, and what point of view and cold-outreach questions would start a real conversation. Based on Nate Nasralla's value driver tree / Driver Graph. Use for "driver tree for [company]", "map [company]'s business", "quick tree on [company]", "practice tree on [company]", "set up driver-tree". The user can add their own starting point of view or context after the company name.
-version: 0.3 (2026-11-18)
+description: Build a value driver tree for a target account before outbound, so the seller understands what the account's leadership is committed to, how that goal is produced, link by link, down to the operational metrics the seller can move, which role owns them, and what point of view and cold-outreach questions would start a real conversation. Based on Nate Nasralla's value driver tree / Driver Graph. Use for "driver tree for [company]", "map [company]'s business", "quick tree on [company]", "practice tree on [company]", "set up driver-tree". The user is encouraged to add their own starting point of view or context after the company name; it is optional but improves the tree a lot. The run stops once, after the outcome and engines, to check it is on the right track.
+version: 0.4 (2026-11-18)
 ---
 
 # Driver tree for outbound
@@ -49,6 +49,7 @@ Read `references/method.md` once per session if you haven't.
      - Treat it as the starting hypothesis: research it first, then confirm, sharpen or contradict it with evidence, and say which in the output.
      - Facts only the user knows are usable, tagged **[user]**.
      - A hunch is never presented as a fact. If the evidence contradicts it, say so plainly rather than bending the tree to fit.
+     - Context helps a lot, because the seller almost always knows something the public sources don't. If none is given, don't ask for it up front: the checkpoint (step 3) invites it.
 
 ## Modes
 
@@ -62,7 +63,9 @@ Read `references/method.md` once per session if you haven't.
 Ask the questions in `references/setup.md`, a few at a time, conversationally. Accept "skip", and accept links to pages or decks (read them). Then write `profile.md` from the template in that file, show it to the user, and ask them to correct it. Never invent product claims or customer proof: anything not given is `unknown`. A rich profile gives a much better tree, so encourage full answers.
 
 ## Process (Quick and Deep)
-Don't draw the tree until steps 1–2 are done: most bad trees come from drawing while still searching.
+Don't draw the tree until steps 1–3 are done: most bad trees come from drawing while still searching.
+
+**The run is path-dependent.** If the outcome and the engines are right, the rest is likely to be right. If they're wrong, nothing lower down can fix them. So there is exactly one stop for the user, the checkpoint in step 3, after the engines and before the drivers. Everything else runs without asking. Refinements come after the run.
 
 ### 1. Gather
 **Start from the profile and the user's context, not from the company in general.** Before the first search, write down (in your reasoning, not the output):
@@ -81,7 +84,7 @@ Then follow `references/research.md`. In short:
 - **Roles:** the teams and titles that own those areas (careers pages, job posts, LinkedIn, org announcements, talks). Only professional, public information about people.
 - **How deep to go:** in Quick, stop at the evidence needed for one path. In Deep, cover the main path and the alternatives.
 
-### 2. Weigh the priorities, then find the path
+### 2. Weigh the priorities, frame the outcome, sketch the engines
 **Choose the outcome by weighing, not by rule.** The seller often can't move the top priority in a meaningful, clear and defensible way, and there is usually more than one. For each documented priority, judge:
 - **weight:** how top of mind it is for leadership;
 - **size:** how big a part of the business it affects;
@@ -89,16 +92,36 @@ Then follow `references/research.md`. In short:
 
 A priority whose best approaches are financial, operational or about manufacturing has a low fit, however important it is.
 
-Choose the priority that balances the three best, and record the weighing under *Priorities weighed* in the output: one line each, and why you chose this one. Don't pick a minor goal just because the seller can reach it. If you do choose a small one because the fit is strong, say it's small. If every important priority has a low fit, say the account isn't a priority now. See *Choosing the outcome* in `references/method.md`.
+**Consider combined framings before settling on a single priority.** The strongest outcome is often a strategic metric for the business line where the seller's wedge is (see the profile), for example that line's revenue or share in a market leadership is pushing into. Under it, as an engine or driver, sits an operational initiative the company itself has reported. That gives a top the board cares about, and a bridge through something they've already said they're doing.
 
-Then work from both ends:
+**Use what the industry knows.** A mechanism that is well established in the industry is a valid link even when the company doesn't state it: in embedded chips, for example, developer adoption drives design-ins and design wins. Tag it **[inferred, industry]** and state the mechanism in a line. The profile may list the seller's known wedges and mechanisms; use them.
+
+**The seller's impact appears only in the behaviors,** never higher up. The outcome, the engines and the drivers are about their business.
+
+Choose the framing that balances weight, size and fit best, and record the weighing under *Priorities weighed* in the output: one line each, and why you chose this one. Don't pick a minor goal just because the seller can reach it. If you do choose a small one because the fit is strong, say it's small. If every important priority has a low fit, say the account isn't a priority now. See *Choosing the outcome* in `references/method.md`.
+
+Then sketch the engines for the chosen outcome (see step 4) and work from both ends:
 - **Top:** the chosen priority (the outcome).
 - **Bottom:** the operational or technical metric this seller moves, as it exists at this company, for example "how fast an evaluating engineer gets an answer".
 - **The bridge:** the chain of metrics where each one produces the one above. For every link, say *how*: the parent is a sum, a product or a rate of the child, or a direct consequence of it. For example: "design wins = evaluations × win rate"; "win rate rises when fewer evaluations stall, and they stall on unanswered questions". If you can't say how a child produces its parent, the link is wrong or a step is missing: fix it rather than paper over it.
 
-Then sketch the tree around that path. Engines the path doesn't run through stay as single context nodes, or are left out. Check the sketch against `references/checklist.md` before drawing.
+Then sketch the tree around that path. Engines the path doesn't run through stay as single context nodes, or are left out.
 
-### 3. Build the tree
+### 3. Checkpoint: outcome and engines
+Stop once, here, and ask the user in chat. Keep it compact, about 15 lines:
+- **Priorities weighed:** one line each (weight, size, fit).
+- **Proposed outcome,** plus 1–2 alternative framings (including a combined one, if there is one).
+- **Engines** for the proposed outcome: one line each, with how it produces the outcome.
+- **Where the seller would enter:** the engine, and the driver, in a line.
+- **The question:** "Right track? Pick a framing, correct the engines, or add context you have."
+
+Then wait for the answer.
+- If the user confirms or corrects, build on their answer. Tag new facts they give as **[user]**.
+- **Skip the checkpoint only if the user asked** ("no checkpoint", "just run it"), or the run is unattended. Then go on with the proposed framing, and say in the output that the checkpoint was skipped.
+- Record the result on the note's *Checkpoint* line.
+
+### 4. Build the tree
+The outcome and engines are as agreed at the checkpoint. How each level is built:
 - **Outcome:** the chosen priority, in their words. Include:
   - its trade-off, if stated ("profit > growth");
   - its targets, if public;
@@ -130,7 +153,7 @@ Then sketch the tree around that path. Engines the path doesn't run through stay
 - **Unknown figures are `?`.** Never fill a gap with a benchmark or a guess; a gap becomes a discovery question.
 - **Write out every link** from the owned behavior to the outcome under *Why this path*, each with its mechanism and evidence. With three or more links, each one must be specific and believable.
 
-### 4. Where we fit (private)
+### 5. Where we fit (private)
 Use `profile.md`, plus the seller's product documentation (linked in the profile) whenever a capability matters to the argument.
 - **Map:** capability → behavior → driver, one line each, with proof from the profile if any.
 - **Compare it against what they already have.** If the target built or bought something in the same area, compare it with the seller's capabilities point by point:
@@ -144,7 +167,7 @@ Use `profile.md`, plus the seller's product documentation (linked in the profile
 - **Angle of attack:** the entry point you'd lead with (which use case or deployment, for which role, framed as which approach), the main objection, and the answer to it.
 - **Weak fit:** if the honest answer is that the product barely touches the tree, say so. It means this account isn't a priority, which is useful.
 
-### 5. Alternative paths (Deep; Quick only if one is obvious)
+### 6. Alternative paths (Deep; Quick only if one is obvious)
 List 2–4 realistic ways they could move the same driver without the seller: build in-house, a competitor, a non-software change (hiring, process, reorganisation), or do nothing. For each, give:
 - the input it moves;
 - the time to show in the numbers;
@@ -154,7 +177,7 @@ List 2–4 realistic ways they could move the same driver without the seller: bu
 
 Tag times and costs as inferred unless they're sourced. Say honestly which one their CFO would likely pick.
 
-### 6. Point of view and questions
+### 7. Point of view and questions
 - **Story in one line:** what is happening to this business, in plain words.
 - **POV:** 2–3 sentences about **their business**, not the product: the change, where it lands on the tree, why it puts the target role's behavior in the spotlight. Something the target would want to confirm or correct.
 - **Cold questions** (2 in Quick, 2–3 in Deep): for a cold call, a LinkedIn message or an email, where you're interrupting someone. Each one:
@@ -174,14 +197,22 @@ Tag times and costs as inferred unless they're sourced. Say honestly which one t
   They are built from the unknowns.
 - No message drafts (out of scope).
 
-### 7. Write the output
+### 8. Write the output
 Use `references/output.md`. Save to the output folder in `profile.md` as `[Company] - driver tree.md`. If that file exists, add a new dated version rather than overwriting, and say what changed.
 
-### 8. Check
+### 9. Review and spot-check
+Before showing the note, review it skeptically in a fresh pass. Use a subagent if you can, so the review doesn't anchor on your own reasoning. Otherwise do a separate pass yourself, re-opening the sources rather than your notes.
+- **Spot-check 3–5 load-bearing claims:** the ones the outcome, the main path, the role to contact and the POV rest on. Re-open each cited source and check that the claim says what the source says: its scope, its timing, who said it, and the translation. Misread sources are the most common failure, and they spread to everything built on them.
+- **Check every link** has a mechanism. Flag any that are hand-waved, and any inferred link presented as stated.
+- **Check the POV and the cold questions for overreach:** an assertion with no evidence row behind it.
+- **Fix what fails.** Add a short *Review* section at the end of the note: what was checked, and what was corrected.
+
+### 10. Check
 Run `references/checklist.md` on the result and fix what fails before showing it. Then tell the user, in chat:
 - the story in one line;
 - the role to contact;
 - whether their starting context held up, if they gave one;
+- what the review corrected;
 - the 1–2 weakest links (where you'd most like to be corrected).
 
 ## Practice
@@ -194,7 +225,7 @@ For building intuition. The user thinks first; you check.
 
    Don't name engines, drivers or pressure.
 2. Ask the user to draft: outcome, engines, drivers, pressure tags, the role to contact and its owned behaviors. Text or Mermaid; rough is fine.
-3. Build your own tree (steps 2–6) without changing theirs.
+3. Build your own tree (steps 2 and 4–7) without changing theirs. There's no checkpoint: their draft plays that role.
 4. Compare, node by node:
    - **agree:** and why it holds;
    - **missing:** what evidence points to it;

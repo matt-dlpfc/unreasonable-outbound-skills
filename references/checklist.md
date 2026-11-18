@@ -4,6 +4,9 @@ Run before showing a tree. Fix what fails; if something can't be fixed, say so i
 
 ## The tree
 - [ ] *Priorities weighed* lists the 2–4 documented priorities, with weight, size and fit, and says why this one was chosen and what was set aside. No minor goal was chosen just because the seller can reach it, and a small one is called small.
+- [ ] Combined framings were considered: a strategic metric for the seller's wedge, with a reported initiative underneath.
+- [ ] The checkpoint happened (or was skipped at the user's request), and its result is on the *Checkpoint* line.
+- [ ] Industry mechanisms used as links are stated and tagged [inferred, industry]. The seller's impact appears only in the behaviors.
 - [ ] The outcome is a priority *their* leadership is committed to, in their words, with its trade-off and targets where public. It is not just last quarter's result.
 - [ ] The tree is a bridge from that goal to what the seller can move, not the financial statements redrawn. Engines off the path are single nodes at most.
 - [ ] 2–4 engines that sketch how the outcome happens (moving one moves the outcome), in their vocabulary where it exists. They are not just the segment table.
@@ -31,6 +34,7 @@ Run before showing a tree. Fix what fails; if something can't be fixed, say so i
 - [ ] If the user gave starting context, the note says whether it held up, was sharpened, or was contradicted.
 
 ## The note
+- [ ] The *Review* section shows 3–5 load-bearing claims re-checked against their sources, and what was corrected.
 - [ ] Every figure, pressure, and claim the argument rests on has a row in *Evidence*, with the source date and stated / inferred / aggregator / user.
 - [ ] Translated quotes have the original phrase in the evidence row and aren't more specific than the original.
 - [ ] Job titles appear only where a source shows them.

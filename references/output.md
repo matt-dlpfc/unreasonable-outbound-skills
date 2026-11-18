@@ -23,7 +23,9 @@ context: [the user's starting context, in a few words, or none]
 | --- | --- | --- | --- |
 | [priority] | [how top of mind, with evidence] | [share of business, or ?] | [high / medium / low: why] |
 
-Chosen: [priority], because [one line]. Set aside: [what, and why].
+Chosen: [priority or combined framing], because [one line]. Set aside: [what, and why].
+
+**Checkpoint:** [confirmed / changed: what the user changed or added / skipped].
 
 ## Tree
 ```mermaid
@@ -71,6 +73,9 @@ For a booked first call: open-ended, for the `?` figures, how they measure the d
 | Node | Figure or fact | Source | Source date | Type |
 | --- | --- | --- | --- | --- |
 | E1 | ... | [name](url) | 2026-08 | stated |
+
+## Review
+Checked: [the 3–5 load-bearing claims re-opened against their sources, plus the links and the POV]. Corrected: [what changed, or "nothing"].
 
 ## Practice  *(Practice mode only)*
 Their tree, the comparison (agree / missing / different / overreach / broken link), takeaway.

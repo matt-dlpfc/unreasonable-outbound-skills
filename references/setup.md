@@ -7,7 +7,7 @@ Run on first use (no `profile.md`) or when the user says "set up driver-tree". A
 ## Questions
 1. **What do you sell?** One paragraph, as you'd say it to a customer. Website and product-docs links. What is established, and what is new or not yet proven?
 2. **What does it actually do?** How the product is built (the core, and what sits on top of it), its concrete capabilities (not benefits), and where each one is deployed or used.
-3. **What does it change, for which segment and role?** Value usually depends on the industry and the role. For each segment you sell to: which roles' work changes (behaviors, e.g. "support engineers answer fewer repeat questions") and which metrics move (drivers, e.g. "ticket volume", "time to first design-in"). Which business metrics are easy to tie your product to, and which are relevant but hard to tie to it?
+3. **What does it change, for which segment and role?** Value usually depends on the industry and the role. For each segment you sell to: which roles' work changes (behaviors, e.g. "support engineers answer fewer repeat questions") and which metrics move (drivers, e.g. "ticket volume", "time to first design-in"). Which business metrics are easy to tie your product to, and which are relevant but hard to tie to it? Per segment: what is your **strongest wedge** (the business line or team where you win most often)? And which **industry mechanism** ties your area to their revenue (e.g. "developer adoption drives design-ins and design wins")?
 4. **Proof.** What can you say about customers? Usually there are two rules, one for naming customers and one for quoting metrics. Which customer results are published (customer, metric, before → after)? Which numbers are internal only?
 5. **Who buys?** What makes a company a true ICP (the conditions that must all hold)? Size floors, segments, regions, and the tiers you use, if any.
 6. **Who do you talk to?** Per segment: the roles you contact first, who tends to become the champion, and who signs. What each is graded on, if you know.
@@ -39,6 +39,11 @@ Website: [link]. Product docs (source of truth): [link]
 | Role | Behavior that changes | Driver |
 | --- | --- | --- |
 | [role] | [behavior] | [metric] |
+
+## Wedge and industry mechanisms
+### [Segment]
+- **Wedge:** [business line or team where we win most]
+- **Mechanism:** [how our area reaches their revenue, as the industry understands it]
 
 ## Business metrics we sell against
 - **Easier to tie the product to:** ...
